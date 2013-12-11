@@ -21,24 +21,7 @@
             <groupId>ru.yandex.qatools.allure</groupId>
             <artifactId>allure-junit-adaptor</artifactId>
             <version>${allure.version}</version>
-        </dependency>
-        <!-- Spring -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -58,18 +41,6 @@
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-test-spring</artifactId>
             <version>${camel.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.easymock</groupId>
-            <artifactId>easymock</artifactId>
-            <version>3.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.9.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
